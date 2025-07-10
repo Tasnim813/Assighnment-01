@@ -95,3 +95,79 @@ nav button{
 .action-image{
     border-radius: 48px;
 }
+/* thousand section */
+.thousand-card-section{
+    display: flex;
+    justify-content: space-between;
+}
+.thousand-contributer{
+    text-align: center;
+    margin-top: 116px;
+    background-color: #4E47FF10;
+    padding: 50px 80px;
+    border-radius: 24px;
+    margin-bottom: 137px;
+}
+.thousand-contributer h1{
+    font-size: 38px;
+    color: #252432;
+    font-weight: bold;
+}
+.thousand-card h1{
+    font-size: 80px;
+    color: #4E47FF;
+}
+.thousand-card p{
+    font-size: 20px;
+    color: #00000050;
+
+}
+
+/* designer section */
+.card-bottom{
+    display: flex;
+    align-items: center;
+}
+.designer-contributer-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+.designer-card{
+    background-color: #f3f0f0;
+    border: #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+}
+.designer-card h1{
+    font-size: 24px;
+    color: #1E1E1E;
+}
+.designer-card p{
+    color: #1E1E1E;
+    font-size: 16px;
+}
+.card-bottom img{
+    border-radius: 50%;
+    width: 40px;
+    height: 60px;
+}
+.card-content h4{
+    font-size: 16px;
+    color: #757575;
+    font-weight: bold;
+}
+.card-content p{
+    font-size: 16px;
+    color: #B3B3B3;
+}
+.designer-contributer h1{
+    font-size: 42px;
+    margin-bottom: 50px;
+    
+
+}
+.designer-contributer{
+    margin-bottom: 120px;
+}
