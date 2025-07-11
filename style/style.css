@@ -14,14 +14,16 @@
 main{
     width: 1140px;
     margin: 0 auto;
+    
 }
 
 /* header style */
 header{
     background-image: url('../Assets/Hero-bg.png');
-    background-repeat: no-repeat;
-    width: 1440px;
-    margin: 0px auto;
+    background-repeat: repeat;
+    /* width: 1440px; */
+    /* margin: 0px auto; */
+    background-size: contain;
 }
 .banner{
     margin-top: 158px;
@@ -127,6 +129,7 @@ nav button{
 .card-bottom{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 .designer-contributer-cards{
     display: flex;
@@ -135,7 +138,7 @@ nav button{
    
 }
 .designer-card{
-    background-color: #f3f0f0;
+    background-color: #FFFFFF;
     border: #F2EDED;
     border-radius: 14px;
     padding: 24px;
@@ -153,7 +156,7 @@ nav button{
     width: 40px;
     height: 60px;
 }
-.card-content h4{
+/* .card-content h4{
     font-size: 16px;
     color: #757575;
     font-weight: bold;
@@ -161,7 +164,7 @@ nav button{
 .card-content p{
     font-size: 16px;
     color: #B3B3B3;
-}
+} */
 .designer-contributer h1{
     font-size: 42px;
     margin-bottom: 50px;
@@ -170,4 +173,72 @@ nav button{
 }
 .designer-contributer{
     margin-bottom: 120px;
+}
+
+
+/* touch section */
+.touch-contributer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.touch-contributer h1{
+    font-size: 98px;
+    width: 528px;
+}
+.form-setion{
+    width: 497px;
+}
+.form-setion input[type="email"], [type="text"], textarea{
+    display: block;
+    padding: 20px 32px;
+    width: 400px;
+    border-radius: 10px;
+    border-color: #D6DDED;
+    font-size: 20px;
+    outline: none;
+}
+.primary-btn{
+    padding: 19px 101px;
+    width: 465px;
+    margin-top: 19px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.primary-btn:hover{
+    background-color: chartreuse;
+}
+
+/* footer style */
+footer{
+    margin-top: 71px;
+    text-align: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 104px;
+    padding-bottom: 103px;
+    
+}
+.list{
+    display: flex;
+    
+    justify-content: center;
+    gap: 40px;
+    
+}
+footer h1{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bold;
+
+}
+footer p{
+    font-size: 16px;
+    color: #8987A1;
 }
