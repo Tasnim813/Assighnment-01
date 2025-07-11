@@ -156,7 +156,7 @@ nav button{
     width: 40px;
     height: 60px;
 }
-/* .card-content h4{
+.card-content h4{
     font-size: 16px;
     color: #757575;
     font-weight: bold;
@@ -164,7 +164,7 @@ nav button{
 .card-content p{
     font-size: 16px;
     color: #B3B3B3;
-} */
+}
 .designer-contributer h1{
     font-size: 42px;
     margin-bottom: 50px;
@@ -177,20 +177,20 @@ nav button{
 
 
 /* touch section */
-.touch-contributer{
+.touch-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.touch-contributer h1{
+.touch-section h1{
     font-size: 98px;
     width: 528px;
 }
-.form-setion{
+.form-section{
     width: 497px;
 }
-.form-setion input[type="email"], [type="text"], textarea{
+.form-section input[type="email"], [type="text"], textarea{
     display: block;
     padding: 20px 32px;
     width: 400px;
