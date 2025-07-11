@@ -191,6 +191,39 @@ nav button:hover{
     margin-top: -22px;
     font-size: 16px;
 }
+/* better-section */
+
+.better-section{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 71px 150px;
+    border-radius: 14px;
+    margin-bottom: 120px;
+
+}
+.better-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.better-section p{
+    font-size: 16px;
+    color: #00000050;
+}
+.better-section button{
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.better-section button:hover{
+    background-color: chartreuse;
+}
 /* touch section */
 .touch-section{
     display: flex;
