@@ -161,6 +161,7 @@ nav button:hover{
 .designer-item p{
     font-size: 16px;
     color: #1E1E1E;
+    
 }
 .disigner-contributer-cards{
     display: flex;
@@ -187,7 +188,7 @@ nav button:hover{
     
 }
 .card-content p{
-    color: #757575;
+    color: #B3B3B3;
     margin-top: -22px;
     font-size: 16px;
 }
