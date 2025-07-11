@@ -36,10 +36,17 @@ header{
     font-weight: bold;
 }
 .banner button{
-    padding: 12px 36px;
+    padding: 15px 36px;
     background-color: #4E47FF;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.banner button:hover{
+    background-color: chartreuse;
 }
 
 /* nav style */
@@ -64,7 +71,11 @@ nav button{
     padding: 15px 36px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 
+}
+nav button:hover{
+    background-color: chartreuse;
 }
 /* action section */
 .action-contributer{
@@ -93,6 +104,11 @@ nav button{
     border: none;
     font-size: 16px;
     color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+.action-content button:hover{
+    background-color: chartreuse;
 }
 .action-image{
     border-radius: 48px;
@@ -126,59 +142,56 @@ nav button{
 }
 
 /* designer section */
-.card-bottom{
+.disigner-contributer h1{
+    
+    font-size: 42px;
+    font-weight: bold;
+    }
+
+.designer-item{
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 24px;
+}
+.designer-item h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1E1E1E;
+}
+.designer-item p{
+    font-size: 16px;
+    color: #1E1E1E;
+}
+.disigner-contributer-cards{
+    display: flex;
+    width: 1140px;
+    
+    margin-bottom: 137px;
+    justify-content: space-between;
+}
+.bottom-card{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.designer-contributer-cards{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-   
-}
-.designer-card{
-    background-color: #FFFFFF;
-    border: #F2EDED;
-    border-radius: 14px;
-    padding: 24px;
-}
-.designer-card h1{
-    font-size: 24px;
-    color: #1E1E1E;
-}
-.designer-card p{
-    color: #1E1E1E;
-    font-size: 16px;
-}
-.card-bottom img{
+.card-img img{
     border-radius: 50%;
+    height: 50px;
     width: 40px;
-    height: 60px;
 }
-.card-content h4{
-    font-size: 16px;
+.card-content h5{
     color: #757575;
-    font-weight: bold;
+    font-size: 16px;
+    align-items: end;
 }
 .card-content p{
+    color: #757575;
     font-size: 16px;
-    color: #B3B3B3;
 }
-.designer-contributer h1{
-    font-size: 42px;
-    margin-bottom: 50px;
-    
-
-}
-.designer-contributer{
-    margin-bottom: 120px;
-}
-
-
 /* touch section */
 .touch-section{
     display: flex;
+   
     justify-content: space-between;
     align-items: center;
 
